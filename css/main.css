@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.order{
+    border: 0px;
+    margin: 20px 40px;
+}
+.order thead tr{
+    background-color: #CCC;
+}
+.order td{
+    padding: 5px 10px;
+}

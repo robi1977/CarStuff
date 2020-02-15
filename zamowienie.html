@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <title>Formularz zamowienia</title>
+  </head>
+  <body>
+    <form action="processorder.php" method="POST">
+      <table class="order">
+        <thead>
+          <tr>
+            <th>Produkty</th>
+            <th>Ilość</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Opon</td>
+            <td><input type="number" name="iloscopon" maxlength="3" min="0" /></td>
+          </tr>
+          <tr>
+            <td>Olej</td>
+            <td><input type="number" name="iloscoleju" maxlength="3" min="0" /></td>
+          </tr>
+          <tr>
+            <td>Świece zapłonowe</td>
+            <td><input type="number" name="iloscswiec" maxlength="3" min="0" /></td>
+          </tr>
+          <tr>
+            <td colspan="2"><input type="submit" value="Złóż zamówienie" /></td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>
