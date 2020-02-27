@@ -2,6 +2,7 @@
     $iloscopon=$_POST["iloscopon"];
     $iloscoleju=$_POST["iloscoleju"];
     $iloscswiec=$_POST["iloscswiec"];
+    $dane_rozne=$_REQUEST;
 ?>
 <!DOCTYPE html>
 <html lang="pl">
@@ -23,6 +24,10 @@
         echo '<tr><td>Olej:</td><td>'.$iloscoleju.'</td></tr>';
         echo '<tr><td>Świece zapłonowe:</td><td>'.$iloscswiec.'</td></tr>';
         echo '</tbody></table>';
+        echo '<hr>';
+        foreach($dane_rozne as $dane){
+            echo $dane.'<br/>';
+        };
     ?>
 
   </body>
