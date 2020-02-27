@@ -9,7 +9,7 @@
     <h1>Części samochodowe - wyniki zamówienia</h1>
 
     <?php
-        echo '<p>Zamówienie przyjęte o: </p>'.date("Y-m-d H:i");
+        echo '<p>Zamówienie przyjęte o: </p>'. date("Y-m-d H:i");
     ?>
 
   </body>
