@@ -1,4 +1,4 @@
-<!DOCTYPE php>
+<!DOCTYPE html>
 <html lang="pl">
   <head>
     <meta charset="UTF-8">
@@ -9,7 +9,7 @@
     <h1>Części samochodowe - wyniki zamówienia</h1>
 
     <?php
-        echo '<p>Zamówienie przyjęte</p>';
+        echo '<p>Zamówienie przyjęte o: </p>'.date("Y-m-d H:i");
     ?>
 
   </body>
