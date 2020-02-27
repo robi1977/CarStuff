@@ -1,0 +1,6 @@
+.order th{
+    padding: 5px 10px;
+}
+.order tr td:last-child{
+    text-align: right;
+}
